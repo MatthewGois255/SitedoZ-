@@ -70,7 +70,7 @@ body {
   color: #fff;
   font-size: 1.3em;
   font-weight: 700;
-  background-color: #c00000;
+  background-color:rgb(85, 150, 251);
   padding: 10px 40px;
   border: 2px solid #fff;
   border-radius: 25px;
@@ -121,9 +121,10 @@ header {
 }
 
 #logo img {
-  width: 208px;
-  height: 130.25px;
+  width: 80px;
+  height: 80px;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 #check {
@@ -136,6 +137,10 @@ label {
   top: 5px;
   right: 15px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+label:hover {
+  color: rgb(85, 150, 251);
 }
 
 nav ul {
@@ -164,6 +169,10 @@ nav ul li a {
   color: #fff;
 }
 
+nav ul li a:hover {
+  color: rgb(85, 150, 251);
+}
+
 /* Destaque */
 main {
   height: 51vh;
@@ -178,12 +187,12 @@ main {
 }
 
 main h1 {
-  font-size: 3.1em;
+  font-size: 2em;
   text-shadow: #000 0.05em 0.05em 0.05em;
 }
 
 main h2 {
-  font-size: 1.25em;
+  font-size: 1em;
   margin-bottom: 40px;
   text-shadow: 0px 5px 10px #000,
     0px 10px 10px rgba(0, 0, 0, 0.15),
@@ -382,11 +391,11 @@ footer a {
   }
 
   main h1 {
-    font-size: 5.8em;
+    font-size: 5em;
   }
 
   main h2 {
-    font-size: 2.3em;
+    font-size: 2em;
   }
 }
 
@@ -413,8 +422,8 @@ footer a {
   }
 
   #logo img {
-    width: 416px;
-    height: 260.5px;
+    width: 180px;
+    height: 180px;
     margin-top: 20px;
   }
 
@@ -440,7 +449,7 @@ footer a {
   }
 
   nav ul li a:hover {
-    color: #c00000;
+    color: rgb(85, 150, 251);
   }
 
   /* Destaque */
@@ -449,7 +458,7 @@ footer a {
   }
 
   main h1 {
-    font-size: 6.8em;
+    font-size: 5.8em;
   }
 
   /* Sobre */
