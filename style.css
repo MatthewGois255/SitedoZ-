@@ -27,6 +27,7 @@ body {
 /* Layout */
 .Container {
   margin: 0 auto;
+  width: auto;
 }
 
 .Flex,
@@ -64,6 +65,12 @@ body {
   justify-content: space-around;
 }
 
+#wireframe{
+  min-height: 200px;
+  text-align: center;
+
+}
+
 /* Botão */
 .Botao {
   text-decoration: none;
@@ -81,6 +88,11 @@ body {
   position: fixed;
   right: 10px;
   bottom: 10px;
+}
+
+#textoWire a{
+  font-size: 17px;
+  padding: 10px;
 }
 
 /* Cartões */
@@ -203,7 +215,7 @@ main h2 {
 /* Sobre */
 #sobre {
   padding: 50px 0px;
-  background: url(img/background.png);
+  background: url(img/background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -251,7 +263,7 @@ main h2 {
 /* Wireframe */
 #wireframe {
   padding: 50px 0px;
-  background: url(img/background.png);
+  background: url(img/background2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -396,6 +408,14 @@ footer a {
 
   main h2 {
     font-size: 2em;
+  }
+
+  #wireframe{
+    text-align:initial;
+  }
+
+  #textoWire{
+     font-size: 20px;
   }
 }
 
